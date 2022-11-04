@@ -4,7 +4,7 @@ body {
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: tan;
+    background-color: rgb(143, 246, 253);
   }
   /* What kind of selector is this? */
   .logo {
@@ -12,6 +12,8 @@ body {
     height: 100px;
     margin: 3% 10%;
   }
+
+
 
   header {
     display: grid;
