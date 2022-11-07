@@ -86,3 +86,13 @@ h1 {
   background: var(--color);
   color: #fff;
 }
+
+p {
+    text-align: center;
+    padding: 10px;
+
+}
+
+@media (min-width: 1000px){
+
+}
