@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="results.css">
+</head>
+<body>
+  <h1>Contact Me</h1>
+    <div>
+        <div id="results"></div>
+  <a href="/">Go Back</a>
+  <script src="scripts.js"></script>
+    </div>
+    <br>
+    <div class="form--container">
+      <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" >
+      </div>
+      <br>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" >
+      </div>
+      <br>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="200" step="5">
+      </div>
+      <br>
+      <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" min="2019-06-10">
+      </div>
+      <br>
+      <div>
+      How did you hear about me?
+      <div class="hear-about">
+          <label for="classmate">Classmate</label>
+          <input type="checkbox" name="classmate" id="classmate">
+        
+        
+          <label for="resume submission">Resume Submission</label>
+          <input type="checkbox" name="resume Submission" id="resume Submission">
+        
+        
+          <label for="coding academy rec">Coding Academy Rec</label>
+          <input type="checkbox" name="coding academy rec" id="coding academy rec">
+        
+      
+          <label for="linkedIn">LinkedIn</label>
+          <input type="checkbox" name="linkedin" id="linkedin">
+
+          <label for="indeed">Indeed</label>
+          <input type="checkbox" name="indeed" id="indeed">
+      </div>
+      <br>
+      <div>
+        Gender
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+          <label for="other">Other</label>
+          <input type="radio" name="gender" id="other" value="other">
+        </div>
+        <br>
+        <div>
+          Would you like to be contacted back?
+          <label for="other">Yes</label>
+          <input type="radio" name="gender" id="other" value="other">
+          <label for="other">No</label>
+          <input type="radio" name="gender" id="other" value="other">
+        </div>
+        <br>
+      </div>
+      <div>
+        <label for="eyeColor">Eye Color</label>
+        <select name="eyeColor" id="eyeColor" multiple>
+          <option value="Green">Green</option>
+          <option label="Brown" value="Brown"></option>
+          <option label="Blue" value="Blue"></option>
+          <option label="Hazel" value="Hazel"></option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio"></textarea>
+      </div>
+      <br>
+      <input type="hidden" name="hidden" value="hi">
+      <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+      </div>
+      <br>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <br>
+      <div>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+      </div>
+      <br>
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <br>
+      <div>
+        <label>
+          Password
+          <input type="password" name="password" >
+        </label>
+      </div>git st
+      <br>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
