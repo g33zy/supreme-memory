@@ -1,5 +1,5 @@
 .hear-about {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 h1 {
@@ -43,14 +43,64 @@ form > div {
 
 
 
-@media (max-width 360px){
-    .left, .main, .right {
-        width: 100%;
+@media screen and (max-width 560px){
+    body{
+       background-color: lightblue;
+       display: flex;
+       flex-direction: column;
+      
+       width: 50%;
+       height: auto;
+    }
+    .form--container{
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        
+        width: 50%;
+        height: auto;
+
+    }
+    .form--div{
+        background-color: lightblue;
+       display: flex;
+       flex-direction: column;
+       
+       width: 50%;
+       height: auto;
+    }
+
+    h1 {
+        background-color: lightblue;
+       display: flex;
+       flex-direction: column;
+      
+       width: 50%;
+       height: auto;
+    }
+    .gender--eyecolor {
+        background-color: lightblue;
+       display: flex;
+       flex-direction: column;
+       
+       
+       width: 50%;
+       height: auto;
     }
     }
+    
+
+
+     /* .top-section, .middle-section, .bottom-section, }{ */
+        /* width: 100%; */
+        /* display: flex; */
+        /* align-items: left; */ 
+        
+    
+    
 /* @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (max-device-width: 812px)  */
+  /* and (-webkit-min-device-pixel-ratio: 3) {  */
 
-} */
+/* } */ 
