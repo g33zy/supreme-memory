@@ -1,0 +1,125 @@
+body {
+    background-color: lightblue;
+}
+
+.title--section {
+    margin: auto;
+    padding: 2px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    
+}
+
+.title--section figure{
+   
+    margin: 0;
+    padding: 2px;
+    border: 4px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.headshot{
+    object-fit: contain;
+    width: 130px;
+}
+
+.subtitle--section{
+    border: 4px solid rgb(226, 241, 4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(84, 240, 167);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.parent--name--me{
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    display: inline-block;
+    margin-left: 20em;
+    
+
+}
+
+.name--me{
+    
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+li{
+    list-style-type: disc;
+}
+
+.contact--list > li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.li-li-img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+main{ 
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 13% 20% 20% 27%;
+    background-color: lightblue;
+
+}
+
+.contact--info{
+    border: 4px solid rgb(0, 47, 255);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.expertise--section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    
+}
+
+.svg--img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.contact--info--title{
+    text-align: center;
+}
+
+.subtitle--section--p{
+    font-size: 20px;
+}
+
