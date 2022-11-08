@@ -1,0 +1,52 @@
+.hear-about {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.form--container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+form {
+    /* min-width: 50vw;
+    max-width: 70vw; */
+    width: 600px;
+}
+
+form > div {
+    display: flex;
+    
+    background-color: aquamarine;
+}
+
+.gender--eyecolor {
+    
+}
+
+.form--div > input {
+    margin-right:auto;
+    min-width: 200px;
+}
+
+.form--div > label {
+    min-width: 60px;
+    text-align: right;
+}
+/* @media (max-width 576px){
+    body {
+        margin: 40px; */
+    /* }
+} */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
