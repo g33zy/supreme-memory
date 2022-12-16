@@ -21,7 +21,7 @@ time, mark, audio, video {
 }
 
 @import url('https://fonts.cdnfonts.com/css/old-english-five');
-
+ 
 body {
     line-height:1;
 }
@@ -35,8 +35,6 @@ footer,header,hgroup,menu,nav,section {
     /* width: 340px; */
     /* height: 100px; */
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
     
 }
 
@@ -44,8 +42,6 @@ h1 {
   font-size: 50pt;
   font-family: 'Old English Five', sans-serif;
   margin-top: 20px;
-  text-align: center;
-  margin-bottom: 15px;
   
 }
 
@@ -111,119 +107,81 @@ nav {
   left: 5px;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'old-english-five' sans-serif;
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(255, 255, 255);
+    background-color: lightblue;
   }
  
-
-  .aca-fig{
-    margin: 20px;
-
-  }
-
-
-  .logo2 {
+  .logo {
     width: 150px;
     height: 150px;
-    ;
+    margin: 10% 10%;
   }
 
 
 
 
-  /* header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-  } */
 
- /* main {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    margin: 50px;
-    
-  }  */
+.thumb-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
 
+}
 
-  /* nav > a {
-    margin: 2% 1% 3%;
-    height: 10%;
-    width: 15%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid white;
-  }  */
-
-  /* .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background: none;
-    padding: 20px;
-    justify-content: center;
-  } */
-
-  /* nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding-right: 2%;
-  }
+.thumb-grid{
+  display: grid;
+  grid-template-areas: 
+  "responsive"
+  "tictactoe"
+  "nasa"
+  "hair"
+  "todo"
+  "calc";
+  gap: 3rem;
   
-  #profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 15% auto;
-    grid-column: 2/3;
-  } */
+}
 
-  /* h1 {
-    color:white;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
-  } */
 
-  /* h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-style: italic;
-  } */
+.responsive{
+  grid-area: responsive;
 
-  /* .small-text {
-    grid-column: 2/3;
-    color: white;
-    font-size: 10px;
-    margin: 3% auto;
-  } */
+}
 
-  /* button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    padding-bottom: 5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
-    cursor: pointer;
-  } */
+.tictactoe{
+  grid-area: tictactoe;
+}
+
+.nasa{
+  grid-area: nasa;
+}
+
+.hair{
+  grid-area: hair;
+}
+
+.todo{
+  grid-area: todo;
+}
+
+.calc{
+  grid-area: calc;
+}
+
+
+.thumb{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
   footer {
     width: 100%;
@@ -264,23 +222,9 @@ body {
     margin-top: 20px;
   }
 
-  @media (min-width: 600px) {
-    .button-54 {
-      padding: 0.25em 0.75em;
-      
-    }
-    nav {
-      padding-bottom: 40px;
-      display: flex;
-      gap: 40px;
-      display: static;
-    }
-    .hamburger {
-      display: none;
-    }
-}
 
-@media (min-width: 1000px) {
+
+@media (min-width: 600px) {
   .button-54 {
     padding: 0.25em 0.75em;
     
@@ -294,5 +238,37 @@ body {
   .hamburger {
     display: none;
   }
+
+  .thumb-grid{
+    display: grid;
+    grid-template-areas: 
+    "responsive tictactoe"
+    "nasa hair"
+    "todo calc";
+    gap: 3rem;
+    
+  }
+
 }
- 
+
+
+
+
+  @media (min-width: 1000px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+      
+    }
+    nav {
+      padding-bottom: 40px;
+      display: flex;
+      gap: 40px;
+      display: static;
+    }
+    .hamburger {
+      display: none;
+    }
+
+}
+
+  @import url('https://fonts.cdnfonts.com/css/old-english-five')
