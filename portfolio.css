@@ -53,10 +53,14 @@ header {
     align-items: center;
 }
 
+
+
 .logo {
-    width: 100px;
-    padding: 0;
-    margin: 0;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 nav {
@@ -114,11 +118,7 @@ body {
     background-color: lightblue;
   }
  
-  .logo {
-    width: 150px;
-    height: 150px;
-    margin: 10% 10%;
-  }
+  
 
 
 

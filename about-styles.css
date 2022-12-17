@@ -1,14 +1,126 @@
-
-body {
-    width: 100vw;
-    margin: 0;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
     box-sizing: border-box;
-
 }
+
+@import url('https://fonts.cdnfonts.com/css/old-english-five');
+ 
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+.logo-title {
+    /* width: 340px; */
+    /* height: 100px; */
+    display: flex;
+    
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: 'Old English Five', sans-serif;
+  margin-top: 20px;
+  
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+nav {
+  display: none;
+}
+
+.nav-style {
+  display: contents;
+}
+
+.hamburger {
+  height: 50px;
+  width: 50px;
+  background-image: url("images/hamburger-menu-svgrepo-com.svg");
+  background-size: contain;
+  margin: 20px;
+  background-repeat: no-repeat;
+  
+}
+
+.x-style {
+  background-image: url("images/x-svgrepo-com.svg");
+}
+
+
+.button-54 {
+  min-width: 122px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+body {
+    font-family: 'old-english-five' sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+  }
+ 
+  
 
 section {
     width: 100%;
-    background-color: aqua;
+    background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,82 +129,108 @@ section {
  
 }
 
-.big-picture {
+/* .big-picture {
     width: 100%;
     margin: 0;
     display: block;
     padding: 10px;
-}
+} */
 
 .small-picture {
     width: 44%;
     margin: 0;
-    padding: 0px 10px;
+    padding: 1rem;
 }
 
 img {
+  display: flex;
     object-fit: contain;
     width: 100%;
     
 }
 
-nav {
+
+
+footer {
+    width: 100%;
+    height: 20vh;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items:flex-start;
-    
-}
-
-h1 {
-    width: 50%;
-}
-.btn {
-    background-color: aqua;
-}
-
-/* CSS */
-.button-89 {
-  --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
-  --color: #373B44;
+    flex-direction: column;
+    background-color: lightgray;
   
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 16px;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social a {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid black 2px;
+  
+  }
+  
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+  
+  }  
+  
+  
+  .copyrightt{
+    text-align: center;
+    margin-top: 20px;
+  }
 
-  border: 0;
 
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
 
 p {
     text-align: center;
     padding: 10px;
 
+} 
+
+
+    @media (min-width: 1000px) {
+        .button-54 {
+          padding: 0.25em 0.75em;
+          
+        }
+        nav {
+          padding-bottom: 40px;
+          display: flex;
+          gap: 40px;
+          display: static;
+        }
+        .hamburger {
+          display: none;
+        }
+    
+    }
+
+
+@media (min-width: 600px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+      
+    }
+    nav {
+      padding-bottom: 40px;
+      display: flex;
+      gap: 40px;
+      display: static;
+    }
+    .hamburger {
+      display: none;
+    }
 }
 
-@media (min-width: 1000px){
-
-}
+@import url('https://fonts.cdnfonts.com/css/old-english-five')
