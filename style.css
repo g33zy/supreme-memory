@@ -1,3 +1,16 @@
+#field {
+  height: 400px;
+  border-bottom: 3px lime groove;
+  position: relative;
+  background-color: lightblue;
+}
+
+#ball {
+  position: absolute;
+  cursor: pointer;
+}
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -37,15 +50,17 @@ footer,header,hgroup,menu,nav,section {
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: lightblue;
     
 }
 
 h1 {
   font-size: 50pt;
   font-family: 'Old English Five', sans-serif;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  background-color: lightblue;
   
 }
 
@@ -55,6 +70,7 @@ header {
     flex-direction: column;
     background-color: lightblue;
     align-items: center;
+  
 }
 
 .logo {
@@ -78,7 +94,13 @@ nav {
   background-size: contain;
   margin: 20px;
   background-repeat: no-repeat;
+  cursor: pointer;
   
+}
+
+.hamburger:hover {
+  
+  background-color: lightgray;
 }
 
 .x-style {
@@ -110,25 +132,83 @@ nav {
   top: 5px;
   left: 5px;
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(255, 255, 255);
+
+  .button-54:hover {
+    color: white;
+    background: black;
   }
- 
+
+
+.body{
+  background-color: lightblue;
+}
+  
+
+
+  main {
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+  
+
+  }
+
+
+  .matrix-parent{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+    
+  }
+
+  #matrix{
+   object-fit: cover;
+   width: 100%;
+   
+
+  }
+
+  .blurb{
+    font-size: 1.5rem;
+    width: 90%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+  }
+
+.logo2-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
   .aca-fig{
-    margin: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
 
   }
 
-
-  .logo2 {
+   .logo2 {
     width: 150px;
-    height: 150px;
-    ;
+    height: 150px; 
+
+    
+  }
+
+  .small-text{
+    color: blue;
+    font-size: 1.2rem;
   }
 
 

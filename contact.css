@@ -129,7 +129,7 @@ footer,header,hgroup,menu,nav,section {
 h1 {
   font-size: 50pt;
   font-family: 'Old English Five', sans-serif;
-  margin-top: 20px;
+  margin-top: 10px;
   
 }
 
@@ -139,6 +139,7 @@ header {
     flex-direction: column;
     background-color: lightblue;
     align-items: center;
+    
 }
 
 .logo {
@@ -165,7 +166,13 @@ nav {
   background-size: contain;
   margin: 20px;
   background-repeat: no-repeat;
+  cursor: pointer;
   
+}
+
+.hamburger:hover {
+  
+  background-color: lightgray;
 }
 
 .x-style {
@@ -199,7 +206,10 @@ nav {
 }
 
 
-
+.button-54:hover {
+  color: white;
+  background: black;
+}
 
 
 
@@ -218,8 +228,10 @@ nav {
 
     html{    background:url(https://images.unsplash.com/photo-1546717003-caee5f93a9db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80) no-repeat;
     background-size: cover;
-    height: auto;
     width: 100%;
+    background-position-y: 20px;
+    background-color: lightblue;
+    
   }
   
   #feedback-page{

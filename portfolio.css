@@ -78,7 +78,13 @@ nav {
   background-size: contain;
   margin: 20px;
   background-repeat: no-repeat;
+  cursor: pointer;
   
+}
+
+.hamburger:hover {
+  
+  background-color: lightgray;
 }
 
 .x-style {
@@ -110,6 +116,13 @@ nav {
   top: 5px;
   left: 5px;
 }
+
+.button-54:hover {
+  color: white;
+  background: black;
+}
+
+
 body {
     font-family: 'old-english-five' sans-serif;
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
@@ -146,6 +159,12 @@ body {
   
 }
 
+p{
+  font-size: 1.5rem;
+}
+
+
+
 
 .responsive{
   grid-area: responsive;
@@ -181,6 +200,76 @@ body {
   align-items: center;
 }
 
+.thumb a {
+  text-decoration: none;
+  font-size: 1.65rem;
+  color: blue;
+  
+}
+
+.thumb a:hover{
+  color: white;
+}
+
+
+.bored-api{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+.button2{
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  /* border-radius: 10%; */
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.button2:hover{
+  color: lightblue;
+}
+
+input{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: none;
+  margin: 1rem;
+}
+
+input + label {
+  padding: 0.5rem, 1rem;
+  font-variant: all-small-caps;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1rem;
+  box-shadow: inset0 0 0 2px #dcdcdc;
+  /* border-radius: 8px; */
+}
+
+ .activity{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  /* height: 100%; */
+  background-color: whitesmoke;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 1rem;
+
+}
 
 
   footer {
@@ -234,6 +323,7 @@ body {
     display: flex;
     gap: 40px;
     display: static;
+    
   }
   .hamburger {
     display: none;
@@ -245,8 +335,13 @@ body {
     "responsive tictactoe"
     "nasa hair"
     "todo calc";
-    gap: 3rem;
+    row-gap: 3rem;
+    column-gap: 13rem;
     
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
 }
@@ -268,6 +363,22 @@ body {
     .hamburger {
       display: none;
     }
+
+    .thumb-grid{
+      display: grid;
+      grid-template-areas: 
+      "responsive tictactoe"
+      "nasa hair"
+      "todo calc";
+      row-gap: 3rem;
+      column-gap: 13rem;
+      
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+
 
 }
 

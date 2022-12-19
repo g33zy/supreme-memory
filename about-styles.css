@@ -76,7 +76,13 @@ nav {
   background-size: contain;
   margin: 20px;
   background-repeat: no-repeat;
+  cursor: pointer;
   
+}
+
+.hamburger:hover {
+  
+  background-color: lightgray;
 }
 
 .x-style {
@@ -108,6 +114,15 @@ nav {
   top: 5px;
   left: 5px;
 }
+
+
+.button-54:hover {
+  color: white;
+  background: black;
+}
+
+
+
 body {
     font-family: 'old-english-five' sans-serif;
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
@@ -148,6 +163,12 @@ img {
     width: 100%;
     
 }
+
+.about-text{
+  font-size: 1.4rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 
 
