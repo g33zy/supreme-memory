@@ -31,7 +31,7 @@ new URLSearchParams(window.location.search).forEach((value, name) => {
 // 'http://www.boredapi.com/api/activity/'
 
 
-const endpoint = 'https://www.boredapi.com/api/activity/';
+const endpoint = `https://www.boredapi.com/api/activity/`;
 const button = document.querySelector('.button');
 const form = document.querySelector('#form');
 const activityWrapper = document.querySelector('.activity');
