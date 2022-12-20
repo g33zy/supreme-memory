@@ -28,10 +28,10 @@ new URLSearchParams(window.location.search).forEach((value, name) => {
   placeForResults.append(document.createElement("br"))
 })
 
+// 'http://www.boredapi.com/api/activity/'
 
 
-
-const endpoint = 'http://www.boredapi.com/api/activity/';
+const endpoint = 'https://www.boredapi.com/api/activity/';
 const button = document.querySelector('.button');
 const form = document.querySelector('#form');
 const activityWrapper = document.querySelector('.activity');
@@ -50,7 +50,7 @@ const getActivity = async (event) => {
 
 form.addEventListener("submit", getActivity)
 
-
+// this section if for the bouncing soccer ball
 
 function animate(options) {
 

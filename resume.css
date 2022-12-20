@@ -205,6 +205,7 @@ main{
     .name--me{
         margin-left: auto;
         margin-right: auto;
+        font-weight: bold;
     }
 
     .subtitle--section{
@@ -248,12 +249,13 @@ main{
        
        align-items: left;
        text-align: center;
-      
-       
-       
-       
-       
+    
 
+     }
+
+     h2{
+        font-size: 1.2rem;
+        font-weight: bold;
      }
         
     .expertise--section{
@@ -265,6 +267,7 @@ main{
 
 h3{
     text-align: center;
+    font-weight: bold;
 }
 
 .contact--info{
